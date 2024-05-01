@@ -4,43 +4,64 @@ import cors from 'cors'
 const app = express()
 app.use(express.json())
 app.use(cors())
+app.use(express.static('api'))
 
 const products = [
     {
         "id": "1",
-        "title": "Product One",
-        "description": "This is the first product.",
-        "price": 10.99
+        "title": "Black T-Shirt",
+        "description": "This is a Black T-Shirt.",
+        "price": 18.99,
+        "image": "/images/Black T-Shirt.jfif",
     },
     {
         "id": "2",
-        "title": "Product Two",
-        "description": "This is the second product.",
-        "price": 20.49
+        "title": "Black Watch",
+        "description": "This is a Black Watch.",
+        "price": 54.49,
+        "image": "/images/Black Watch.jfif",
     },
     {
         "id": "3",
-        "title": "Product Three",
-        "description": "This is the third product.",
-        "price": 15.99
+        "title": "Blue Back Bag",
+        "description": "This is a Blue Back Bag.",
+        "price": 35.99,
+        "image": "/images/Blue Back Bag.jfif",
     },
     {
         "id": "4",
-        "title": "Product Four",
-        "description": "This is the fourth product.",
-        "price": 30.99
+        "title": "Gaming Keyboard",
+        "description": "This is a Gaming Keyboard.",
+        "price": 30.99,
+        "image": "/images/Gaming Keyboard.jfif",
     },
     {
         "id": "5",
-        "title": "Product Five",
-        "description": "This is the fifth product.",
-        "price": 25.99
+        "title": "Modern Headset",
+        "description": "This is a Modern Headset.",
+        "price": 25.29,
+        "image": "/images/Modern Headset.jfif",
     },
     {
         "id": "6",
-        "title": "Product Six",
-        "description": "This is the sixth product.",
-        "price": 12.49
+        "title": "Purple Hand Bag",
+        "description": "This is a Purple Hand Bag.",
+        "price": 12.49,
+        "image": "/images/Purple Hand Bag.jfif",
+    },
+    {
+        "id": "7",
+        "title": "Red T-Shirt",
+        "description": "This is a Red T-Shirt.",
+        "price": 24.99,
+        "image": "/images/Red T-Shirt.jfif",
+    },
+    {
+        "id": "8",
+        "title": "Smart Phone",
+        "description": "This is a Smart Phone.",
+        "price": 320.49,
+        "image": "/images/Smart Phone.jfif",
     }
 ]
 
