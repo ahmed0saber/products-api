@@ -4,7 +4,6 @@ import cors from 'cors'
 const app = express()
 app.use(express.json())
 app.use(cors())
-app.use(express.static('api'))
 
 const products = [
     {
@@ -12,56 +11,56 @@ const products = [
         "title": "Black T-Shirt",
         "description": "This is a Black T-Shirt.",
         "price": 18.99,
-        "image": "/images/Black T-Shirt.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Black T-Shirt.jfif",
     },
     {
         "id": "2",
         "title": "Black Watch",
         "description": "This is a Black Watch.",
         "price": 54.49,
-        "image": "/images/Black Watch.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Black Watch.jfif",
     },
     {
         "id": "3",
         "title": "Blue Back Bag",
         "description": "This is a Blue Back Bag.",
         "price": 35.99,
-        "image": "/images/Blue Back Bag.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Blue Back Bag.jfif",
     },
     {
         "id": "4",
         "title": "Gaming Keyboard",
         "description": "This is a Gaming Keyboard.",
         "price": 30.99,
-        "image": "/images/Gaming Keyboard.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Gaming Keyboard.jfif",
     },
     {
         "id": "5",
         "title": "Modern Headset",
         "description": "This is a Modern Headset.",
         "price": 25.29,
-        "image": "/images/Modern Headset.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Modern Headset.jfif",
     },
     {
         "id": "6",
         "title": "Purple Hand Bag",
         "description": "This is a Purple Hand Bag.",
         "price": 12.49,
-        "image": "/images/Purple Hand Bag.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Purple Hand Bag.jfif",
     },
     {
         "id": "7",
         "title": "Red T-Shirt",
         "description": "This is a Red T-Shirt.",
         "price": 24.99,
-        "image": "/images/Red T-Shirt.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Red T-Shirt.jfif",
     },
     {
         "id": "8",
         "title": "Smart Phone",
         "description": "This is a Smart Phone.",
         "price": 320.49,
-        "image": "/images/Smart Phone.jfif",
+        "image": "https://ahmed0saber.github.io/products-api/images/Smart Phone.jfif",
     }
 ]
 
