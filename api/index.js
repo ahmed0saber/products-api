@@ -11,6 +11,7 @@ const products = [
         "title": "Black T-Shirt",
         "description": "This is a Black T-Shirt.",
         "price": 18.99,
+        "sale_percentage": 8,
         "image": "https://ahmed0saber.github.io/products-api/images/Black T-Shirt.jfif",
     },
     {
@@ -18,6 +19,7 @@ const products = [
         "title": "Black Watch",
         "description": "This is a Black Watch.",
         "price": 54.49,
+        "sale_percentage": 12,
         "image": "https://ahmed0saber.github.io/products-api/images/Black Watch.jfif",
     },
     {
@@ -25,6 +27,7 @@ const products = [
         "title": "Blue Back Bag",
         "description": "This is a Blue Back Bag.",
         "price": 35.99,
+        "sale_percentage": 6,
         "image": "https://ahmed0saber.github.io/products-api/images/Blue Back Bag.jfif",
     },
     {
@@ -32,6 +35,7 @@ const products = [
         "title": "Gaming Keyboard",
         "description": "This is a Gaming Keyboard.",
         "price": 30.99,
+        "sale_percentage": 24,
         "image": "https://ahmed0saber.github.io/products-api/images/Gaming Keyboard.jfif",
     },
     {
@@ -39,6 +43,7 @@ const products = [
         "title": "Modern Headset",
         "description": "This is a Modern Headset.",
         "price": 25.29,
+        "sale_percentage": 0,
         "image": "https://ahmed0saber.github.io/products-api/images/Modern Headset.jfif",
     },
     {
@@ -46,6 +51,7 @@ const products = [
         "title": "Purple Hand Bag",
         "description": "This is a Purple Hand Bag.",
         "price": 12.49,
+        "sale_percentage": 11,
         "image": "https://ahmed0saber.github.io/products-api/images/Purple Hand Bag.jfif",
     },
     {
@@ -53,6 +59,7 @@ const products = [
         "title": "Red T-Shirt",
         "description": "This is a Red T-Shirt.",
         "price": 24.99,
+        "sale_percentage": 10,
         "image": "https://ahmed0saber.github.io/products-api/images/Red T-Shirt.jfif",
     },
     {
@@ -60,6 +67,7 @@ const products = [
         "title": "Smart Phone",
         "description": "This is a Smart Phone.",
         "price": 320.49,
+        "sale_percentage": 32,
         "image": "https://ahmed0saber.github.io/products-api/images/Smart Phone.jfif",
     }
 ]
