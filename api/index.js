@@ -9,7 +9,7 @@ const products = [
     {
         "id": "1",
         "title": "Black T-Shirt",
-        "description": "This is a Black T-Shirt.",
+        "description": "Classic style meets premium comfort in our Black T-Shirt. Grab yours now!",
         "price": 18.99,
         "sale_percentage": 8,
         "image": "https://ahmed0saber.github.io/products-api/images/Black T-Shirt.jfif",
@@ -17,7 +17,7 @@ const products = [
     {
         "id": "2",
         "title": "Black Watch",
-        "description": "This is a Black Watch.",
+        "description": "Elevate your look with our sleek Black Watch, available at a great deal!",
         "price": 54.49,
         "sale_percentage": 12,
         "image": "https://ahmed0saber.github.io/products-api/images/Black Watch.jfif",
@@ -25,7 +25,7 @@ const products = [
     {
         "id": "3",
         "title": "Blue Back Bag",
-        "description": "This is a Blue Back Bag.",
+        "description": "Stay organized in style with our Blue Backpack, now offered at a special price!",
         "price": 35.99,
         "sale_percentage": 6,
         "image": "https://ahmed0saber.github.io/products-api/images/Blue Back Bag.jfif",
@@ -33,7 +33,7 @@ const products = [
     {
         "id": "4",
         "title": "Gaming Keyboard",
-        "description": "This is a Gaming Keyboard.",
+        "description": "Level up your gaming setup with our Gaming Keyboard, available at a discounted rate!",
         "price": 30.99,
         "sale_percentage": 24,
         "image": "https://ahmed0saber.github.io/products-api/images/Gaming Keyboard.jfif",
@@ -41,7 +41,7 @@ const products = [
     {
         "id": "5",
         "title": "Modern Headset",
-        "description": "This is a Modern Headset.",
+        "description": "Immerse yourself in crystal-clear sound with our Modern Headset, available now at an amazing value!",
         "price": 25.29,
         "sale_percentage": 0,
         "image": "https://ahmed0saber.github.io/products-api/images/Modern Headset.jfif",
@@ -49,7 +49,7 @@ const products = [
     {
         "id": "6",
         "title": "Purple Hand Bag",
-        "description": "This is a Purple Hand Bag.",
+        "description": "Add a pop of color to your outfit with our Purple Handbag, now offered at a fantastic price!",
         "price": 12.49,
         "sale_percentage": 11,
         "image": "https://ahmed0saber.github.io/products-api/images/Purple Hand Bag.jfif",
@@ -57,7 +57,7 @@ const products = [
     {
         "id": "7",
         "title": "Red T-Shirt",
-        "description": "This is a Red T-Shirt.",
+        "description": "Stand out in style with our vibrant Red T-Shirt, now available at an unbeatable value!",
         "price": 24.99,
         "sale_percentage": 10,
         "image": "https://ahmed0saber.github.io/products-api/images/Red T-Shirt.jfif",
@@ -65,7 +65,7 @@ const products = [
     {
         "id": "8",
         "title": "Smart Phone",
-        "description": "This is a Smart Phone.",
+        "description": "Stay connected and productive with our advanced Smart Phone, now offered at an incredible discount!",
         "price": 320.49,
         "sale_percentage": 32,
         "image": "https://ahmed0saber.github.io/products-api/images/Smart Phone.jfif",
