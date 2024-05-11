@@ -1,6 +1,6 @@
 # Simple Products API
 
-Just a simple API with 3 endpoints.
+Just a simple API with multiple easy-to-use endpoints.
 
 API_BASE_URL = https://products-api-delta.vercel.app
 
