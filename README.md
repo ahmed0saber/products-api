@@ -22,6 +22,20 @@ example:
 https://products-api-delta.vercel.app/api/products
 ```
 
+### search for products
+
+Send a get request with query parameter named `q` to the following endpoint:
+
+```
+/api/products/search
+```
+
+example:
+
+```
+https://products-api-delta.vercel.app/api/products/search?q=phone
+```
+
 ### get single product by id
 
 Send a get request to the following endpoint:

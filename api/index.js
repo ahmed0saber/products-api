@@ -76,6 +76,18 @@ app.get('/api/products', async (req, res) => {
     return res.json(products)
 })
 
+app.get('/api/products/search', async (req, res) => {
+    const searchQuery = req.query.q
+    if (searchQuery === undefined) {
+        return res.json(products)
+    }
+
+    const searchPattern = new RegExp(searchQuery, "i")
+    const filteredProducts = products.filter(product => searchPattern.test(product.title))
+
+    return res.json(filteredProducts)
+})
+
 app.get('/api/product/:id', async (req, res) => {
     const { id } = req.params
     const currentProduct = products.find(user => user.id.toString() === id)
